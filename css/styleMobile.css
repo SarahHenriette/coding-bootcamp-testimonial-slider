@@ -1,8 +1,4 @@
 @media screen and (min-width: 0) and (max-width: 1200px) {
-    body {
-        width: 375px;
-        height: 667px;
-    }
     .contain-pattern-bg {
         width: 327px;
         height: 308px;
