@@ -60,6 +60,8 @@ body {
     line-height: 44px;
     color: #202047;
     font-weight: 300;
+    margin-top: 64px;
+
 }
 .contain-text .name {
     font-weight: bold;

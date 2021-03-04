@@ -1,4 +1,8 @@
 @media screen and (min-width: 0) and (max-width: 1200px) {
+    body {
+        width: 375px;
+        height: 667px;
+    }
     .contain-pattern-bg {
         width: 327px;
         height: 308px;
@@ -48,6 +52,7 @@
         font-size: 18px;
         line-height: 24px;
         text-align: center;
+        margin-top: 25px;
     }
     .contain-text .name, .contain-text .job {
         font-size: 15px;
