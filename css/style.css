@@ -1,0 +1,112 @@
+body {
+    margin: 0;
+    height: 100vh;
+    position: relative;
+    overflow: hidden;
+}
+
+.contain-pattern-bg {
+    position: absolute;
+    width: 697px;
+    height: 657px;
+    top: 50px;
+    right: 73px;
+}
+.pattern-bg {
+    width: 100%;
+    height: auto;
+}
+
+.contain-pattern-curve {
+    position: absolute;
+    width: 610px;
+    height: 150px;
+    left: 0;
+    bottom: 0;
+}
+.pattern-curve {
+    width: 100%;
+    height: auto;
+}
+#slider {
+    position: relative;
+    width: 1110px;
+    height: 540px;
+    margin: auto;
+    top: 113px;
+}
+
+.slide {
+    display: none;
+    width: 1110px;
+    height: 540px;
+    position: relative;
+}
+.active {
+    display: block;
+}
+.slide .contain-text {
+    position: absolute;
+    top: 101px;
+    width: 635px;
+    height: 354px;
+    z-index: 5;
+}
+.contain-text p {
+    font-family: 'Inter', sans-serif;
+}
+.contain-text .citation {
+    font-size: 32px;
+    line-height: 44px;
+    color: #202047;
+    font-weight: 300;
+}
+.contain-text .name {
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 38px;
+    margin-right: 10px;
+}
+.contain-text .job {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 38px;
+    color: #B9B9CE;
+}
+.contain-text .contain-pattern-quotes {
+    position: absolute;
+    width: 120px;
+    height: 100px;
+    top: 0;
+    left: 95px;
+}
+.contain-pattern-quotes img {
+    width: 100%;
+    height: auto;
+}
+.slide .contain-photo {
+    position: absolute;
+    right: 0;
+    width: 540px;
+    height: 540px;
+    background-repeat: no-repeat;
+    box-shadow: 14px 26px 34px #20204729;
+}
+.slide .tanya {
+    background-image: url('../images/image-tanya.jpg');
+}
+.slide .john {
+    background-image: url('../images/image-john.jpg');
+}
+#button {
+    width: 112px;
+    height: 56px;
+    background-color: #FFF;
+    border-radius: 50px;
+    position: absolute;
+    bottom: -28px;
+    right: 366px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
